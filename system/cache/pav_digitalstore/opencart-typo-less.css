@@ -1,0 +1,119 @@
+.required {
+  color: #FF0000;
+  font-weight: bold;
+}
+.success,
+.warning,
+.attention,
+.information {
+  padding: 10px 10px 10px 33px;
+  margin-bottom: 15px;
+  color: #555555;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.success .close,
+.warning .close,
+.attention .close,
+.information .close {
+  float: right;
+  padding-top: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
+.attention {
+  background: #FFF5CC url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../../../attention.png') 10px center no-repeat;
+  border: 1px solid #F2DD8C;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.warning {
+  background: #FFD1D1 url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../../../warning.png') 10px center no-repeat;
+  border: 1px solid #F8ACAC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.help {
+  color: #999;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: 14px;
+  display: block;
+}
+.error {
+  display: block;
+  color: #FF0000;
+}
+.welcome {
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: normal;
+}
+.success {
+  background: #EAF7D9 url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../../../success.png') 10px center no-repeat;
+  border: 1px solid #BBDF8D;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: proximanovasemibold;
+}
+h1 {
+  font-size: 27px;
+  line-height: 34px;
+}
+h1 small {
+  font-size: 21px;
+}
+h2 {
+  font-size: 22px;
+  line-height: 34px;
+}
+h2 small {
+  font-size: 14px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 34px;
+}
+h3 small {
+  font-size: 16px;
+}
+h4 {
+  font-size: 17px;
+  line-height: 26px;
+}
+h4 small {
+  font-size: 14px;
+  color: #282b2f;
+  display: block;
+  margin-top: 2px;
+}
+h5 {
+  font-size: 15px;
+}
+h5 small {
+  font-size: 12px;
+}
+h6 {
+  font-size: 14px;
+  line-height: 34px;
+}

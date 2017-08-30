@@ -1,0 +1,121 @@
+#pav-mainnav {
+  position: relative;
+}
+#pav-mainnav .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+#pav-mainnav .navbar {
+  border: none;
+}
+#pav-mainnav .navbar .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+#pav-mainnav .navbar ul.nav  > li > a:before {
+  width: 0%;
+  height: 5px;
+  background-color: #57a6b9;
+  left: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+#pav-mainnav .navbar ul.nav  > li:hover > a {
+  background: none;
+  background-color:  \9;
+  color: #57a6b9;
+}
+#pav-mainnav .navbar ul.nav  > li:hover > a:before {
+  width: 100%;
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+#pav-mainnav .navbar ul.nav  > li:hover > a .caret {
+  border-bottom-color: #57a6b9;
+  border-top-color: #57a6b9;
+}
+#pav-mainnav .navbar ul.nav > li  > a {
+  text-transform: uppercase;
+  font-size: 14px;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#pav-mainnav .dropdown-menu {
+  -webkit-box-shadow: 0 1px 3px #d3d3d3;
+  box-shadow: 0 1px 3px #d3d3d3;
+  border: none;
+}
+#pav-mainnav .dropdown-menu li {
+  border-bottom: 1px solid #f3f3f3;
+}
+#pav-mainnav .dropdown-menu li:last-child {
+  border-bottom: none;
+}
+#pav-mainnav .dropdown-menu li a {
+  padding: 3px 0 3px 0;
+  line-height: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/circle-li.png') no-repeat -10px 12px;
+  display: block;
+}
+#pav-mainnav .dropdown-menu li a:hover {
+  background-position: 5px 12px;
+  padding-left: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #57a6b9;
+}
+#pav-mainnav .navbar-inverse .navbar-nav > .open > a {
+  background-color: ;
+}
+.pav-megamenu .dropdown-menu > .dropdown-menu-inner {
+  padding: 10px;
+}
+.pav-megamenu .mega-group .caret {
+  display: none;
+}
+.pav-megamenu .mega-group > .dropdown-toggle {
+  display: block;
+  font-weight: bold;
+  padding: 6px 5px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #E5E5E5;
+}
+.pav-megamenu .mega-group .dropdown-mega .mega-col-inner > ul > li a {
+  margin-left: 6px;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul > li {
+  list-style: none;
+  margin-left: 0;
+}
+.pav-megamenu .mega-col .mega-col-inner > ul > li > a {
+  clear: both;
+  color: #555555;
+  display: block;
+  line-height: 20px;
+}
+.pav-megamenu .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+.pav-megamenu .dropdown-submenu > .dropdown-menu {
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.pav-megamenu .cols2 {
+  width: 420px;
+}
+.pav-megamenu .cols3 {
+  width: 620px;
+}
+.pav-megamenu .cols4 {
+  width: 820px;
+}

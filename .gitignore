@@ -1,0 +1,13 @@
+*.jpg
+*.JPG
+*.jpeg
+*.png
+*.PNG
+*.bmp
+*.gif
+*.log
+*.sql
+*.txt
+*.doc
+*BKP
+BKP*

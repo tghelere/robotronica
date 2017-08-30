@@ -1,0 +1,86 @@
+.btn-theme-primary {
+  background-color: #57a6b9;
+  border: none;
+  color: #fff;
+}
+.btn-theme-primary:hover {
+  background-color: ;
+  color: #fff;
+}
+.text-primary-theme {
+  color: ;
+}
+.text-danger-theme {
+  color: ;
+}
+.social {
+  text-align: center;
+}
+.social a {
+  color: #808080;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  padding: 0 4%;
+  display: inline-block;
+}
+.social a i {
+  font-size: 21px;
+  padding-right: 5px;
+}
+.social a:hover {
+  color: #57a6b9;
+}
+.social p {
+  margin-bottom: 0;
+}
+.contact-us ul li {
+  padding: 7px 0 !important;
+}
+.contact-us ul li span {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 26px;
+  -webkit-transform: translateZ(0);
+  display: inline-block;
+  font-size: 16px !important;
+  padding-left: 4px;
+  border: solid 2px #808080;
+}
+.contact-us ul li:hover span {
+  border: solid 2px #57a6b9;
+}
+.pav-categoryproducts .tab-nav ul li.active {
+  background: #95bb7a;
+}
+.pav-categoryproducts .tab-nav ul li.active:before {
+  border-top: 10px solid #95bb7a;
+}
+.banner {
+  text-align: center;
+}
+h4.media-heading {
+  text-transform: uppercase;
+  font-size: 21px;
+  font-family: proximanovalight;
+}
+h3.media-heading {
+  text-transform: none;
+  font-size: 23px;
+  font-family: proximanovasemibold;
+}
+.media .readmore a {
+  color: #57a6b9;
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/circle-li.png') no-repeat right center;
+  padding-right: 13px;
+}
+.media .readmore a:hover {
+  text-decoration: underline;
+}

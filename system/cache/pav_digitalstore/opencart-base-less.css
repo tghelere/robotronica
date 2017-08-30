@@ -1,0 +1,435 @@
+html {
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  background-repeat: repeat-x;
+  background-position: center 100px;
+  line-height: 18px;
+  color: #6e6e6e;
+}
+.fs9 {
+  font-size: 11px;
+}
+.fs10 {
+  font-size: 12px;
+}
+.fs11 {
+  font-size: 13px;
+}
+.fs12 {
+  font-size: 14px;
+}
+.fs13 {
+  font-size: 15px;
+}
+.fs14 {
+  font-size: 16px;
+}
+.fs15 {
+  font-size: 17px;
+}
+.fs16 {
+  font-size: 18px;
+}
+a {
+  cursor: hand;
+  cursor: pointer;
+}
+a img {
+  border: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #57a6b9;
+}
+a:focus {
+  outline: none;
+  outline-offset: -2px;
+  color: #57a6b9;
+}
+img {
+  border: 0 none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul,
+ol {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+ul li,
+ol li {
+  line-height: 20px;
+}
+body,
+td,
+th,
+input,
+textarea,
+select,
+a {
+  outline: 0 none;
+}
+a,
+a:hover,
+a:focus {
+  -webkit-transition: color 0.4s ease 0s;
+  transition: color 0.4s ease 0s;
+  text-decoration: none;
+}
+.quantity input,
+input[name="quantity"] {
+  width: auto;
+  display: inline;
+  text-align: center;
+}
+table.list {
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 1px solid #d5d5d5;
+  border-left: 1px solid #d5d5d5;
+  margin-bottom: 20px;
+}
+table.list thead td {
+  background-color: transparent;
+  padding: 0px 5px;
+}
+table.list .center {
+  text-align: center;
+  padding: 7px;
+}
+table.list tbody td {
+  padding: 0px 5px;
+}
+table.list td {
+  border-right: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+}
+table.list .right {
+  text-align: right;
+  padding: 7px;
+}
+table.list .left {
+  text-align: left;
+  padding: 7px;
+}
+table.list thead td a,
+.list thead td {
+  text-decoration: none;
+  color: #222222;
+  font-weight: bold;
+}
+input.large-field,
+select.large-field {
+  width: 300px;
+  border: 1px solid #eaeaea;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  color: #505050;
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.428571429;
+  padding: 6px 12px;
+  -webkit-box-shadow: 0 0 2px #d3d3d3 inset;
+  box-shadow: 0 0 2px #d3d3d3 inset;
+}
+table.form {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table.form > * > * > td {
+  color: #000000;
+}
+table.form td {
+  padding: 4px;
+}
+table.form tr td:first-child {
+  width: 150px;
+}
+table.radio {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.radio td {
+  padding: 5px;
+}
+table.radio td label {
+  display: block;
+}
+table.radio tr td:first-child {
+  width: 1px;
+}
+table.radio tr td:first-child input {
+  margin-top: 1px;
+}
+table.radio tr.highlight:hover td {
+  background: #F1FFDD;
+  cursor: pointer;
+}
+.breadcrumb {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.breadcrumb li:last-child:before {
+  color: #57a6b9;
+}
+.breadcrumb li:last-child a {
+  color: #57a6b9;
+}
+.pagination {
+  padding-top: 8px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.pagination .links {
+  float: left;
+}
+.pagination .links a,
+.pagination .links b {
+  border: 1px solid #fff;
+}
+.pagination .links a {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  width: 30px;
+}
+.pagination .links a:hover {
+  background-color: #57a6b9;
+  color: #fff;
+}
+.pagination .links b {
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+  background-color: #57a6b9;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  width: 30px;
+}
+.pagination .results {
+  float: right;
+  padding-top: 3px;
+}
+input.button {
+  margin: 0;
+  border: 0;
+  height: 30px;
+  padding: 0px 15px;
+}
+.button,
+input.button {
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
+  border: 1px solid #c9c9c9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.button:hover,
+input.button:hover {
+  border: 1px solid #57a6b9;
+  color: #FFFFFF;
+  background-color: #57a6b9;
+  -webkit-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
+}
+a.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #000000 !important;
+}
+a.button:hover {
+  color: #FFFFFF !important;
+}
+.buttons {
+  background: #FFFFFF;
+  border: 1px solid #CCC;
+  overflow: auto;
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.buttons .center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttons .right {
+  float: right;
+  text-align: right;
+}
+.buttons .left {
+  float: left;
+  text-align: left;
+}
+.tabs-group {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 0 3px #d3d3d3;
+  box-shadow: 0 0 3px #d3d3d3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.htabs {
+  border-bottom: 1px solid #f2f5f8;
+}
+.htabs a {
+  padding: 15px 20px;
+  float: left;
+  font-size: 18px;
+  font-family: proximanovasemibold;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: -1px;
+  display: none;
+  border-right: 1px solid #f2f5f8;
+}
+.htabs a.selected {
+  background: #FFFFFF;
+  color: #57a6b9;
+}
+.htabs > a {
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -ms-border-radius: 5px 0 0 0;
+  -o-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+}
+.tab-content {
+  padding: 15px;
+  margin-bottom: 15px;
+  z-index: 2;
+}
+.carousel-controls {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 50px;
+  height: 24px;
+}
+.carousel-controls .carousel-control {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.carousel-control {
+  text-shadow: none;
+  width: 26px;
+  height: 26px;
+  background-color: #f4f4f4;
+  font-size: 22px;
+  line-height: 22px;
+  top: 38%;
+  cursor: pointer;
+  color: #b0b0b0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.carousel-control:hover {
+  background-color: #57a6b9;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.carousel-control.left {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: none;
+}
+.carousel-control.right {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-image: none;
+}
+ul.links {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+ul.links li {
+  display: inline-block;
+  margin-right: 4px;
+  line-height: 1.428571429;
+}
+ul.links li > a span {
+  font-size: 12px;
+  margin-right: 10px;
+}
+ul.list > li {
+  padding: 10px 0;
+}
+ul.list > li ul {
+  display: none;
+}
+ul.list > li ul > li {
+  padding: 10px 0 0px 25px;
+}
+ul.list > li ul > li > a {
+  text-decoration: none;
+  display: block;
+}
+ul.list > li > a {
+  text-decoration: none;
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+ul.list > li > a:hover,
+ul.list > li > a.active {
+  background-position: left -46px;
+}
+ul.list > li a:hover .badge,
+ul.list > li a.active .badge {
+  background-color: #57a6b9;
+}
+ul.list > li a.active {
+  color: #57a6b9;
+}
+ul.list > li a.active + ul {
+  display: block;
+}

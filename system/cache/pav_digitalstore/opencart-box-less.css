@@ -1,0 +1,478 @@
+.box {
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.box .box-heading {
+  background: #fdfdfd;
+  font-size: 23px;
+  font-family: proximanovasemibold;
+  border-bottom: 1px solid #f2f5f8;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  line-height: 33px;
+  padding: 10px 20px;
+}
+.sidebar .box .box-content {
+  padding: 15px 20px;
+}
+.sidebar .box.red {
+  background-color: transparent;
+  padding: 0;
+  color: #282b2f;
+}
+.sidebar .box.red .box-heading {
+  background: #e76d66;
+  color: #FFFFFF;
+}
+.sidebar .box.red .box-content {
+  background: #fcebea;
+}
+.sidebar .box.red ul li > a {
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+.sidebar .box.red ul li > a:hover,
+.sidebar .box.red ul li > a.active {
+  background-position: left -46px;
+}
+.sidebar .box.yellow {
+  background-color: transparent;
+  padding: 0;
+  color: #282b2f;
+}
+.sidebar .box.yellow .box-heading {
+  background-color: #ffc40d;
+  color: #fff;
+}
+.sidebar .box.yellow .box-content {
+  background: #ffe9a6;
+}
+.sidebar .box.yellow ul li > a {
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+.sidebar .box.yellow ul li > a:hover,
+.sidebar .box.yellow ul li > a.active {
+  background-position: left -46px;
+}
+.sidebar .box.blue {
+  background-color: transparent;
+  padding: 0;
+  color: #282b2f;
+}
+.sidebar .box.blue .box-heading {
+  background: #57a6b9;
+  color: #FFFFFF;
+}
+.sidebar .box.blue .box-content {
+  background: #c3dfe6;
+}
+.sidebar .box.blue ul li > a {
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+.sidebar .box.blue ul li > a:hover,
+.sidebar .box.blue ul li > a.active {
+  background-position: left -46px;
+}
+.sidebar .box.orange {
+  background-color: transparent;
+  padding: 0;
+  color: #282b2f;
+}
+.sidebar .box.orange .box-heading {
+  background: #f89406;
+  color: #FFFFFF;
+}
+.sidebar .box.orange .box-content {
+  background: #fdd49a;
+}
+.sidebar .box.orange ul li > a {
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+.sidebar .box.orange ul li > a:hover,
+.sidebar .box.orange ul li > a.active {
+  background-position: left -46px;
+}
+.sidebar .box.green {
+  background-color: transparent;
+  padding: 0;
+  color: #282b2f;
+}
+.sidebar .box.green .box-heading {
+  background: #95bb7a;
+  color: #FFFFFF;
+}
+.sidebar .box.green .box-content {
+  background: #e6efdf;
+}
+.sidebar .box.green ul li > a {
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+.sidebar .box.green ul li > a:hover,
+.sidebar .box.green ul li > a.active {
+  background-position: left -46px;
+}
+.sidebar .box.purple {
+  background-color: transparent;
+  padding: 0;
+  color: #282b2f;
+}
+.sidebar .box.purple .box-heading {
+  background: #7a43b6;
+  color: #FFFFFF;
+}
+.sidebar .box.purple .box-content {
+  background: #c8b0e2;
+}
+.sidebar .box.purple ul li > a {
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+.sidebar .box.purple ul li > a:hover,
+.sidebar .box.purple ul li > a.active {
+  background-position: left -46px;
+}
+.sidebar .box.gray {
+  background-color: transparent;
+  padding: 0;
+  color: #282b2f;
+}
+.sidebar .box.gray .box-heading {
+  background: #505050;
+  color: #FFFFFF;
+}
+.sidebar .box.gray .box-content {
+  background: #9d9d9d;
+}
+.sidebar .box.gray ul li > a {
+  background: url('http://robotronica.com.br/catalog/view/theme/pav_digitalstore/stylesheet/../image/blue/arrow-li.png') no-repeat left 4px;
+  padding-left: 20px;
+}
+.sidebar .box.gray ul li > a:hover,
+.sidebar .box.gray ul li > a.active {
+  background-position: left -46px;
+}
+#footer .box {
+  background-color: transparent;
+  margin-bottom: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+#footer .box .box-heading {
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 0;
+  background: none;
+  border-bottom: none;
+  padding-bottom: 18px;
+}
+#footer .box .box-heading span:before {
+  border-bottom: none;
+}
+#footer .box .box-content {
+  padding: 0;
+}
+.box.nopadding .box-content {
+  padding: 10px 0 0;
+}
+.box.nopadding ul li {
+  border-bottom: 1px solid #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.box.nopadding ul li:last-child {
+  border-bottom: none;
+}
+.box.no-boxshadown {
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+}
+.highlighted .box-heading {
+  background-color: ;
+}
+.highlighted .box-content {
+  background-color: #fafafa;
+}
+.dark {
+  background: #7f7f7f;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+  padding: 20px 10px 10px 20px;
+  color: #FFFFFF;
+}
+.dark ul li {
+  border-bottom: 1px solid #343434;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.dark ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.dark ul li a:hover {
+  color: ;
+}
+.red {
+  background: #e76d66;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+  padding: 20px 10px 10px 20px;
+  color: #FFFFFF;
+}
+.red ul li {
+  border-bottom: 1px solid #c96666;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.red ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.red ul li a:hover {
+  color: #fff;
+}
+.yellow {
+  background: #ffc40d;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+}
+.yellow .box-heading {
+  background-color: #d8981a;
+  border-bottom: 1px solid #e8c174;
+  position: relative;
+}
+.yellow .box-content {
+  background-color: #EDA81F;
+}
+.yellow ul li {
+  border-bottom: 1px solid #e8c174;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.yellow ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.yellow ul li a:hover {
+  color: #fff;
+}
+.blue {
+  background: #57a6b9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+  padding: 20px 10px 10px 20px;
+  color: #FFFFFF;
+}
+.blue .box-heading {
+  background-color: #3483bf;
+  border-bottom: 1px solid #64a0ce;
+  position: relative;
+}
+.blue .box-content {
+  background-color: #3c92d4;
+}
+.blue ul li {
+  border-bottom: 1px solid #64a0ce;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.blue ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.blue ul li a:hover {
+  color: #fff;
+}
+.orange {
+  background: #f89406;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+}
+.orange .box-heading {
+  background-color: #da6e3e;
+  border-bottom: 1px solid #e69673;
+  position: relative;
+}
+.orange .box-content {
+  background-color: #e97846;
+}
+.orange ul li {
+  border-bottom: 1px solid #e69673;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.orange ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.orange ul li a:hover {
+  color: #fff;
+}
+.green {
+  background: #95bb7a;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+  padding: 20px 10px 10px 20px;
+  color: #FFFFFF;
+}
+.green .box-heading {
+  background-color: #669435;
+  border-bottom: 1px solid #a2cd75;
+  position: relative;
+}
+.green .box-content {
+  background-color: #7DB641;
+}
+.green ul li {
+  border-bottom: 1px solid #a2cd75;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.green ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.green ul li a:hover {
+  color: #fff;
+}
+.purple {
+  background: #7a43b6;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px #d9dadb;
+  box-shadow: 0 1px 2px #d9dadb;
+}
+.purple .box-heading {
+  background-color: #a130b9;
+  border-bottom: 1px solid #cb6ddf;
+  position: relative;
+}
+.purple .box-content {
+  background-color: #b436ce;
+}
+.purple ul li {
+  border-bottom: 1px solid #cb6ddf;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.purple ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.purple ul li a:hover {
+  color: #fff;
+}
+.gray {
+  background: #f8f8f8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #D9DADB, 0 0 1px #fff inset;
+  -o-box-shadow: 0 1px 2px #D9DADB, 0 0 1px #fff inset;
+  -webkit-box-shadow: 0 1px 2px #D9DADB, 0 0 1px #fff inset;
+  -moz-box-shadow: 0 1px 2px #D9DADB, 0 0 1px #fff inset;
+  padding: 20px 10px 10px 20px;
+  color: #6e6e6e;
+}
+.gray h3 {
+  color: #282b2f;
+}
+.gray .box-heading {
+  background-color: #669435;
+  border-bottom: 1px solid #a2cd75;
+  position: relative;
+}
+.gray .box-content {
+  background-color: #7DB641;
+}
+.gray ul li {
+  border-bottom: 1px solid #a2cd75;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.gray ul li a {
+  color: #fff;
+  background: none;
+  text-transform: none;
+  padding-left: 0;
+}
+.gray ul li a:hover {
+  color: #fff;
+}
