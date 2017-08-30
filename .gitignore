@@ -1,3 +1,7 @@
+admin/config-local.php
+admin/config.php
+config-local.php
+config.php
 *.jpg
 *.JPG
 *.jpeg
